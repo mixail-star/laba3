@@ -1,13 +1,13 @@
-Start testing: Nov 04 20:32 +07
+Start testing: Nov 26 21:08 +07
 ----------------------------------------------------------
 1/3 Testing: boost
 1/3 Test: boost
-Command: "/home/schetinin/Desktop/lw3/cpp/build/tests_boost"
-Directory: /home/schetinin/Desktop/lw3/cpp/build
-"boost" start time: Nov 04 20:32 +07
+Command: "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build/tests_boost"
+Directory: /home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build
+"boost" start time: Nov 26 21:08 +07
 Output:
 ----------------------------------------------------------
-Running 37 test cases...
+Running 79 test cases...
 
 [1;32;49m*** No errors detected
 [0;39;49m
@@ -15,69 +15,49 @@ Running 37 test cases...
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"boost" end time: Nov 04 20:32 +07
+"boost" end time: Nov 26 21:08 +07
 "boost" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 2/3 Testing: gtest
 2/3 Test: gtest
-Command: "/home/schetinin/Desktop/lw3/cpp/build/tests_gtest"
-Directory: /home/schetinin/Desktop/lw3/cpp/build
-"gtest" start time: Nov 04 20:32 +07
+Command: "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build/tests_gtest"
+Directory: /home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build
+"gtest" start time: Nov 26 21:08 +07
 Output:
 ----------------------------------------------------------
 Running main() from ./googletest/src/gtest_main.cc
-[==========] Running 37 tests from 7 test suites.
+[==========] Running 84 tests from 13 test suites.
 [----------] Global test environment set-up.
-[----------] 7 tests from ArrayTests
+[----------] 5 tests from ArrayTests
+[ RUN      ] ArrayTests.InsertIntoFullBuffer
+[       OK ] ArrayTests.InsertIntoFullBuffer (0 ms)
 [ RUN      ] ArrayTests.PushBackAndGet
 [       OK ] ArrayTests.PushBackAndGet (0 ms)
 [ RUN      ] ArrayTests.InsertAtBeginMiddleEnd
 [       OK ] ArrayTests.InsertAtBeginMiddleEnd (0 ms)
-[ RUN      ] ArrayTests.GetSetOutOfRange
-[       OK ] ArrayTests.GetSetOutOfRange (0 ms)
-[ RUN      ] ArrayTests.EraseShiftsLeft
-[       OK ] ArrayTests.EraseShiftsLeft (0 ms)
-[ RUN      ] ArrayTests.FindAndClear
-[       OK ] ArrayTests.FindAndClear (0 ms)
-[ RUN      ] ArrayTests.CopyAndMove
-[       OK ] ArrayTests.CopyAndMove (0 ms)
-[ RUN      ] ArrayTests.GrowsManyTimes
-[       OK ] ArrayTests.GrowsManyTimes (0 ms)
-[----------] 7 tests from ArrayTests (0 ms total)
+[ RUN      ] ArrayTests.SetAndErase
+[       OK ] ArrayTests.SetAndErase (0 ms)
+[ RUN      ] ArrayTests.CopyMoveClearAndGrow
+[       OK ] ArrayTests.CopyMoveClearAndGrow (0 ms)
+[----------] 5 tests from ArrayTests (0 ms total)
 
 [----------] 5 tests from SinglyListTests
+[ RUN      ] SinglyListTests.PopBackAndGetInLongList
+[       OK ] SinglyListTests.PopBackAndGetInLongList (0 ms)
 [ RUN      ] SinglyListTests.PushFrontBack
 [       OK ] SinglyListTests.PushFrontBack (0 ms)
 [ RUN      ] SinglyListTests.InsertAfterBefore
 [       OK ] SinglyListTests.InsertAfterBefore (0 ms)
 [ RUN      ] SinglyListTests.PopFrontBack
 [       OK ] SinglyListTests.PopFrontBack (0 ms)
-[ RUN      ] SinglyListTests.RemoveContainsGet
-[       OK ] SinglyListTests.RemoveContainsGet (0 ms)
-[ RUN      ] SinglyListTests.CopyMoveClear
-[       OK ] SinglyListTests.CopyMoveClear (0 ms)
+[ RUN      ] SinglyListTests.RemoveContainsGetClear
+[       OK ] SinglyListTests.RemoveContainsGetClear (0 ms)
 [----------] 5 tests from SinglyListTests (0 ms total)
 
-[----------] 4 tests from DoublyListTests
-[ RUN      ] DoublyListTests.PushAndTraverseBothWays
-[       OK ] DoublyListTests.PushAndTraverseBothWays (0 ms)
-[ RUN      ] DoublyListTests.InsertAfterBefore
-[       OK ] DoublyListTests.InsertAfterBefore (0 ms)
-[ RUN      ] DoublyListTests.PopRemoveGet
-[       OK ] DoublyListTests.PopRemoveGet (0 ms)
-[ RUN      ] DoublyListTests.CopyMoveClear
-[       OK ] DoublyListTests.CopyMoveClear (0 ms)
-[----------] 4 tests from DoublyListTests (0 ms total)
-
-[----------] 2 tests from StackQueueTests
-[ RUN      ] StackQueueTests.StackIsLifo
-[       OK ] StackQueueTests.StackIsLifo (0 ms)
-[ RUN      ] StackQueueTests.QueueIsFifo
-[       OK ] StackQueueTests.QueueIsFifo (0 ms)
-[----------] 2 tests from StackQueueTests (0 ms total)
-
-[----------] 6 tests from RBTreeTests
+[----------] 7 tests from RBTreeTests
+[ RUN      ] RBTreeTests.OrderingOfUnusualKeys
+[       OK ] RBTreeTests.OrderingOfUnusualKeys (0 ms)
 [ RUN      ] RBTreeTests.InsertBalancesLikeLab1
 [       OK ] RBTreeTests.InsertBalancesLikeLab1 (0 ms)
 [ RUN      ] RBTreeTests.SearchMinMaxNextPrev
@@ -88,70 +68,202 @@ Running main() from ./googletest/src/gtest_main.cc
 [       OK ] RBTreeTests.StaysValidUnderRandomOps (1 ms)
 [ RUN      ] RBTreeTests.OrderingAndDiagram
 [       OK ] RBTreeTests.OrderingAndDiagram (0 ms)
-[ RUN      ] RBTreeTests.CopyMoveClear
-[       OK ] RBTreeTests.CopyMoveClear (0 ms)
-[----------] 6 tests from RBTreeTests (1 ms total)
+[ RUN      ] RBTreeTests.LoadThroughSequenceBase
+[       OK ] RBTreeTests.LoadThroughSequenceBase (0 ms)
+[----------] 7 tests from RBTreeTests (1 ms total)
 
-[----------] 6 tests from HashTableTests
+[----------] 6 tests from SerializationTests
+[ RUN      ] SerializationTests.RejectsTreeWithTwoRedInARow
+[       OK ] SerializationTests.RejectsTreeWithTwoRedInARow (0 ms)
+[ RUN      ] SerializationTests.RejectsMoreMalformedJson
+[       OK ] SerializationTests.RejectsMoreMalformedJson (0 ms)
+[ RUN      ] SerializationTests.TextFormatIsLab1Json
+[       OK ] SerializationTests.TextFormatIsLab1Json (0 ms)
+[ RUN      ] SerializationTests.JsonParsingLikeLab1
+[       OK ] SerializationTests.JsonParsingLikeLab1 (0 ms)
+[ RUN      ] SerializationTests.FilesRoundtrip
+[       OK ] SerializationTests.FilesRoundtrip (0 ms)
+[ RUN      ] SerializationTests.RejectsBadBinary
+[       OK ] SerializationTests.RejectsBadBinary (0 ms)
+[----------] 6 tests from SerializationTests (0 ms total)
+
+[----------] 4 tests from DoublyListTests
+[ RUN      ] DoublyListTests.PushAndValues
+[       OK ] DoublyListTests.PushAndValues (0 ms)
+[ RUN      ] DoublyListTests.InsertAfterBefore
+[       OK ] DoublyListTests.InsertAfterBefore (0 ms)
+[ RUN      ] DoublyListTests.PopRemoveGet
+[       OK ] DoublyListTests.PopRemoveGet (0 ms)
+[ RUN      ] DoublyListTests.Clear
+[       OK ] DoublyListTests.Clear (0 ms)
+[----------] 4 tests from DoublyListTests (0 ms total)
+
+[----------] 2 tests from StackQueueTests
+[ RUN      ] StackQueueTests.StackIsLifo
+[       OK ] StackQueueTests.StackIsLifo (0 ms)
+[ RUN      ] StackQueueTests.QueueIsFifo
+[       OK ] StackQueueTests.QueueIsFifo (0 ms)
+[----------] 2 tests from StackQueueTests (0 ms total)
+
+[----------] 4 tests from HashTableTests
 [ RUN      ] HashTableTests.HashFunction
 [       OK ] HashTableTests.HashFunction (0 ms)
-[ RUN      ] HashTableTests.PutGetRemoveAllKinds
-[       OK ] HashTableTests.PutGetRemoveAllKinds (0 ms)
-[ RUN      ] HashTableTests.GrowsAndKeepsAllKeys
-[       OK ] HashTableTests.GrowsAndKeepsAllKeys (2 ms)
 [ RUN      ] HashTableTests.ChainSpecifics
 [       OK ] HashTableTests.ChainSpecifics (0 ms)
 [ RUN      ] HashTableTests.OpenAddressingTombstones
 [       OK ] HashTableTests.OpenAddressingTombstones (0 ms)
 [ RUN      ] HashTableTests.OpenHelpersAndCopies
 [       OK ] HashTableTests.OpenHelpersAndCopies (0 ms)
-[----------] 6 tests from HashTableTests (2 ms total)
+[----------] 4 tests from HashTableTests (0 ms total)
 
-[----------] 7 tests from SerializationTests
-[ RUN      ] SerializationTests.SequencesRoundtripBothFormats
-[       OK ] SerializationTests.SequencesRoundtripBothFormats (0 ms)
-[ RUN      ] SerializationTests.TreeKeepsShapeAndColors
-[       OK ] SerializationTests.TreeKeepsShapeAndColors (0 ms)
-[ RUN      ] SerializationTests.HashTablesRoundtrip
-[       OK ] SerializationTests.HashTablesRoundtrip (0 ms)
-[ RUN      ] SerializationTests.FilesRoundtrip
-[       OK ] SerializationTests.FilesRoundtrip (0 ms)
-[ RUN      ] SerializationTests.RejectsBadData
-[       OK ] SerializationTests.RejectsBadData (0 ms)
-[ RUN      ] SerializationTests.RejectsBadTreeAndTable
-[       OK ] SerializationTests.RejectsBadTreeAndTable (0 ms)
-[ RUN      ] SerializationTests.PolymorphicSave
-[       OK ] SerializationTests.PolymorphicSave (0 ms)
-[----------] 7 tests from SerializationTests (0 ms total)
+[----------] 3 tests from HashTableTests/HashTableTests_PutGetRemove
+[ RUN      ] HashTableTests/HashTableTests_PutGetRemove.Run/0
+[       OK ] HashTableTests/HashTableTests_PutGetRemove.Run/0 (0 ms)
+[ RUN      ] HashTableTests/HashTableTests_PutGetRemove.Run/1
+[       OK ] HashTableTests/HashTableTests_PutGetRemove.Run/1 (0 ms)
+[ RUN      ] HashTableTests/HashTableTests_PutGetRemove.Run/2
+[       OK ] HashTableTests/HashTableTests_PutGetRemove.Run/2 (0 ms)
+[----------] 3 tests from HashTableTests/HashTableTests_PutGetRemove (0 ms total)
+
+[----------] 3 tests from HashTableTests/HashTableTests_GrowsAndKeepsAllKeys
+[ RUN      ] HashTableTests/HashTableTests_GrowsAndKeepsAllKeys.Run/0
+[       OK ] HashTableTests/HashTableTests_GrowsAndKeepsAllKeys.Run/0 (0 ms)
+[ RUN      ] HashTableTests/HashTableTests_GrowsAndKeepsAllKeys.Run/1
+[       OK ] HashTableTests/HashTableTests_GrowsAndKeepsAllKeys.Run/1 (0 ms)
+[ RUN      ] HashTableTests/HashTableTests_GrowsAndKeepsAllKeys.Run/2
+[       OK ] HashTableTests/HashTableTests_GrowsAndKeepsAllKeys.Run/2 (0 ms)
+[----------] 3 tests from HashTableTests/HashTableTests_GrowsAndKeepsAllKeys (1 ms total)
+
+[----------] 18 tests from SerializationTests/SerializationTests_Roundtrip
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/0
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/0 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/1
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/1 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/2
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/2 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/3
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/3 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/4
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/4 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/5
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/5 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/6
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/6 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/7
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/7 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/8
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/8 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/9
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/9 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/10
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/10 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/11
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/11 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/12
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/12 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/13
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/13 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/14
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/14 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/15
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/15 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/16
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/16 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_Roundtrip.Run/17
+[       OK ] SerializationTests/SerializationTests_Roundtrip.Run/17 (0 ms)
+[----------] 18 tests from SerializationTests/SerializationTests_Roundtrip (0 ms total)
+
+[----------] 9 tests from SerializationTests/SerializationTests_EmptyContainer
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/0
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/0 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/1
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/1 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/2
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/2 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/3
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/3 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/4
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/4 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/5
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/5 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/6
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/6 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/7
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/7 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_EmptyContainer.Run/8
+[       OK ] SerializationTests/SerializationTests_EmptyContainer.Run/8 (0 ms)
+[----------] 9 tests from SerializationTests/SerializationTests_EmptyContainer (0 ms total)
+
+[----------] 13 tests from SerializationTests/SerializationTests_RejectsBadJson
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/0
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/0 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/1
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/1 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/2
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/2 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/3
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/3 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/4
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/4 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/5
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/5 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/6
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/6 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/7
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/7 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/8
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/8 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/9
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/9 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/10
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/10 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/11
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/11 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadJson.Run/12
+[       OK ] SerializationTests/SerializationTests_RejectsBadJson.Run/12 (0 ms)
+[----------] 13 tests from SerializationTests/SerializationTests_RejectsBadJson (0 ms total)
+
+[----------] 5 tests from SerializationTests/SerializationTests_RejectsBadTree
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadTree.Run/0
+[       OK ] SerializationTests/SerializationTests_RejectsBadTree.Run/0 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadTree.Run/1
+[       OK ] SerializationTests/SerializationTests_RejectsBadTree.Run/1 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadTree.Run/2
+[       OK ] SerializationTests/SerializationTests_RejectsBadTree.Run/2 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadTree.Run/3
+[       OK ] SerializationTests/SerializationTests_RejectsBadTree.Run/3 (0 ms)
+[ RUN      ] SerializationTests/SerializationTests_RejectsBadTree.Run/4
+[       OK ] SerializationTests/SerializationTests_RejectsBadTree.Run/4 (0 ms)
+[----------] 5 tests from SerializationTests/SerializationTests_RejectsBadTree (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 37 tests from 7 test suites ran. (4 ms total)
-[  PASSED  ] 37 tests.
+[==========] 84 tests from 13 test suites ran. (4 ms total)
+[  PASSED  ] 84 tests.
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"gtest" end time: Nov 04 20:32 +07
+"gtest" end time: Nov 26 21:08 +07
 "gtest" time elapsed: 00:00:00
 ----------------------------------------------------------
 
 3/3 Testing: catch2
 3/3 Test: catch2
-Command: "/home/schetinin/Desktop/lw3/cpp/build/tests_catch2"
-Directory: /home/schetinin/Desktop/lw3/cpp/build
-"catch2" start time: Nov 04 20:32 +07
+Command: "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build/tests_catch2"
+Directory: /home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build
+"catch2" start time: Nov 26 21:08 +07
 Output:
 ----------------------------------------------------------
-Randomness seeded to: 2263305552
+Randomness seeded to: 3341208518
 ===============================================================================
-All tests passed (387 assertions in 37 test cases)
+All tests passed (482 assertions in 34 test cases)
 
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"catch2" end time: Nov 04 20:32 +07
+"catch2" end time: Nov 26 21:08 +07
 "catch2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 04 20:32 +07
+End testing: Nov 26 21:08 +07

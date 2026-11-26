@@ -660,7 +660,8 @@ mod tests {
     fn search_min_max_next_prev() {
         let empty = RBTree::default();
         assert_eq!((empty.min_key(), empty.max_key()), (None, None));
-        assert!(empty.bfs().is_empty());
+        assert_eq!(empty.bfs(), [] as [String; 0]);
+
         let t = lab1_tree();
         assert!(t.contains("25") && !t.contains("99"));
         assert_eq!((t.min_key(), t.max_key()), (Some("5"), Some("30")));

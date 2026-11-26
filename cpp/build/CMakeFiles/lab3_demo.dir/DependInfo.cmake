@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/schetinin/Desktop/lw3/cpp/main.cpp" "CMakeFiles/lab3_demo.dir/main.cpp.o" "gcc" "CMakeFiles/lab3_demo.dir/main.cpp.o.d"
+  "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/main.cpp" "CMakeFiles/lab3_demo.dir/main.cpp.o" "gcc" "CMakeFiles/lab3_demo.dir/main.cpp.o.d"
   "" "lab3_demo" "gcc" "CMakeFiles/lab3_demo.dir/link.d"
   )
 

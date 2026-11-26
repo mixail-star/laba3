@@ -1,0 +1,194 @@
+@startuml
+title ЛР3: диаграмма классов
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+skinparam linetype ortho
+hide empty members
+
+enum Format {
+  Binary
+  Text
+}
+
+abstract class Serializable {
+  +{abstract} save_binary(out)
+  +{abstract} load_binary(in)
+  +{abstract} save_text(out)
+  +{abstract} load_text(in)
+  +save(out, format)
+  +load(in, format)
+  +save_file(path, format)
+  +load_file(path, format)
+}
+
+abstract class Container {
+  +{abstract} length(): int
+  +empty(): bool
+  +{abstract} clear()
+  +{abstract} type_name(): string
+}
+
+abstract class Sequence {
+  +{abstract} values(): Array
+  +save_binary(out)
+  +load_binary(in)
+  +save_text(out)
+  +load_text(in)
+  #{abstract} restore(value)
+}
+
+class Array {
+  -data: string*
+  -size: int
+  -capacity: int
+  -resize()
+  +push_back(value)
+  +insert(index, value): bool
+  +get(index, value): bool
+  +set(index, value): bool
+  +erase(index, removed): bool
+  +at(index): string
+}
+
+class SinglyList {
+  -head: Node*
+  -tail: Node*
+  -count: int
+  +push_front(value)
+  +push_back(value)
+  +insert_after(key, value): bool
+  +insert_before(key, value): bool
+  +pop_front(removed): bool
+  +pop_back(removed): bool
+  +remove(key): bool
+  +get(index, value): bool
+  +contains(key): bool
+  +front(value): bool
+}
+
+class DoublyList {
+  -head: Node*
+  -tail: Node*
+  -count: int
+  -find(key): Node*
+  -unlink(node)
+  +push_front(value)
+  +push_back(value)
+  +insert_after(key, value): bool
+  +insert_before(key, value): bool
+  +pop_front(removed): bool
+  +pop_back(removed): bool
+  +remove(key): bool
+  +get(index, value): bool
+  +contains(key): bool
+}
+
+class Stack {
+  -list: SinglyList
+  +push(value)
+  +pop(removed): bool
+  +top(value): bool
+}
+
+class Queue {
+  -list: SinglyList
+  +push(value)
+  +pop(removed): bool
+  +front(value): bool
+}
+
+class RBTree {
+  -nil: Node*
+  -root: Node*
+  -count: int
+  -left_rotate(x)
+  -right_rotate(x)
+  -insert_fix(z)
+  -erase_fix(x)
+  +insert(key): bool
+  +erase(key): bool
+  +contains(key): bool
+  +min_key(key): bool
+  +max_key(key): bool
+  +next(key, result): bool
+  +prev(key, result): bool
+  +keys(): Array
+  +preorder(): Array
+  +inorder(): Array
+  +postorder(): Array
+  +bfs(): Array
+  +diagram(): string
+  +is_valid(): bool
+}
+
+abstract class HashTable {
+  +{abstract} put(key, value): bool
+  +{abstract} get(key): optional<string>
+  +{abstract} remove(key): bool
+  +{abstract} for_each_pair(visit)
+  +{abstract} capacity(): int
+  +contains(key): bool
+  +load_factor(): double
+  +save_binary(out)
+  +load_binary(in)
+  +save_text(out)
+  +load_text(in)
+}
+
+class ChainHashTable {
+  -buckets_: Entry**
+  -bucket_count_: int
+  -count_: int
+  -rehash(new_count)
+  +longest_chain(): int
+}
+
+class OpenHashTable {
+  -probing_: Probing
+  -keys_: string*
+  -values_: string*
+  -cells_: Cell*
+  -capacity_: int
+  -count_: int
+  -deleted_: int
+  -probe(hash, i): int
+  -rebuild(new_size)
+  +probes(key): int
+  +{static} is_prime(n): bool
+  +{static} next_prime(n): int
+}
+
+enum "OpenHashTable::Probing" as Probing {
+  Linear
+  Double
+}
+
+class "namespace codec" as codec <<utility>> {
+  +write_u32 / read_u32
+  +write_string / read_string
+  +write_binary_header / read_binary_header
+  +write_json / read_json
+}
+
+Serializable <|-- Container
+Container <|-- Sequence
+Container <|-- HashTable
+Sequence <|-- Array
+Sequence <|-- SinglyList
+Sequence <|-- DoublyList
+Sequence <|-- Stack
+Sequence <|-- Queue
+Sequence <|-- RBTree
+HashTable <|-- ChainHashTable
+HashTable <|-- OpenHashTable
+
+Stack *-- SinglyList : list
+Queue *-- SinglyList : list
+OpenHashTable --> Probing
+
+Serializable ..> Format
+Sequence ..> Array : values()
+Serializable ..> codec
+Sequence ..> codec
+HashTable ..> codec
+@enduml

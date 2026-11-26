@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/schetinin/Desktop/lw3/cpp/benchmarks.cpp" "CMakeFiles/bench.dir/benchmarks.cpp.o" "gcc" "CMakeFiles/bench.dir/benchmarks.cpp.o.d"
+  "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/benchmarks.cpp" "CMakeFiles/bench.dir/benchmarks.cpp.o" "gcc" "CMakeFiles/bench.dir/benchmarks.cpp.o.d"
   "" "bench" "gcc" "CMakeFiles/bench.dir/link.d"
   )
 

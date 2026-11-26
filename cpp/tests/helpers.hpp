@@ -5,6 +5,7 @@
 #include <memory>
 #include <sstream>
 #include <string>
+#include <utility>
 #include <vector>
 #include "array.hpp"
 #include "doubly_list.hpp"
@@ -50,6 +51,38 @@ inline std::string text_of(const Serializable& s) {
     s.save(out, Format::Text);
     return out.str();
 }
+
+// Минимальный наследник Serializable: все копирующие и перемещающие операции по умолчанию,
+// чтобы тесты задействовали встроенные в include/serializable.hpp специальные функции базового класса
+struct StubSerializable : Serializable {
+    std::string payload;
+
+    StubSerializable() = default;
+    explicit StubSerializable(std::string value) : payload(std::move(value)) {}
+
+    void save_binary(std::ostream& out) const override { out << payload; }
+    void load_binary(std::istream& in) override { std::getline(in, payload); }
+    void save_text(std::ostream& out) const override { out << payload; }
+    void load_text(std::istream& in) override { std::getline(in, payload); }
+};
+
+// Прогоняет конструктор копирования/переноса и оба присваивания; true, если значение дошло до цели
+inline bool serializable_special_members_work() {
+    StubSerializable original("alpha");
+    StubSerializable copied(original);
+    StubSerializable moved(std::move(copied));
+    StubSerializable copy_assigned;
+    copy_assigned = original;
+    StubSerializable move_assigned;
+    move_assigned = std::move(moved);
+    return copy_assigned.payload == "alpha" && move_assigned.payload == "alpha";
+}
+
+// RBTree::restore защищён и вызывается только из Sequence::load_text, который RBTree переопределяет;
+// подкласс открывает его, чтобы проверить напрямую
+struct RBTreeProbe : RBTree {
+    using RBTree::restore;
+};
 
 // ---------- Параметры для однотипных проверок ----------
 using Maker = std::function<std::unique_ptr<Container>()>;

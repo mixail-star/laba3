@@ -1,0 +1,12 @@
+1) ТЕСТЫ + HTML-ОТЧЁТ О РЕЗУЛЬТАТАХ (из XML)
+   sudo apt install build-essential cmake python3 libboost-test-dev libgtest-dev catch2
+   ./scripts/run_tests_xml.sh
+   -> открыть reports/index.html
+
+2) HTML-ОТЧЁТ О ПОКРЫТИИ КОДА (таблица по файлам, подсветка строк)
+   pip install gcovr          (или: sudo apt install gcovr)
+   ./scripts/coverage.sh
+   -> открыть coverage/index.html
+   Уже готовый отчёт лежит в coverage/index.html (можно открыть сразу).
+
+3) UML-диаграмма классов: docs/classes.png (исходник docs/classes.puml)

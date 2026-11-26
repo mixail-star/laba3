@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="78" skipped="0" errors="0" failures="0" id="0" name="lab3_boost" time="0.004129">
+<testcase assertions="9" classname="ArrayTests" name="PushBackAndGet" time="2.6e-05">
+</testcase>
+<testcase assertions="8" classname="ArrayTests" name="InsertAtBeginMiddleEnd" time="1.7e-05">
+</testcase>
+<testcase assertions="11" classname="ArrayTests" name="SetAndErase" time="1.8e-05">
+</testcase>
+<testcase assertions="12" classname="ArrayTests" name="CopyMoveClearAndGrow" time="7.7e-05">
+</testcase>
+<testcase assertions="7" classname="SinglyListTests" name="PushFrontBack" time="1.8e-05">
+</testcase>
+<testcase assertions="10" classname="SinglyListTests" name="InsertAfterBefore" time="1.9e-05">
+</testcase>
+<testcase assertions="12" classname="SinglyListTests" name="PopFrontBack" time="1.7e-05">
+</testcase>
+<testcase assertions="14" classname="SinglyListTests" name="RemoveContainsGetClear" time="1.9e-05">
+</testcase>
+<testcase assertions="3" classname="DoublyListTests" name="PushAndValues" time="1.5e-05">
+</testcase>
+<testcase assertions="12" classname="DoublyListTests" name="InsertAfterBefore" time="1.8e-05">
+</testcase>
+<testcase assertions="21" classname="DoublyListTests" name="PopRemoveGet" time="2e-05">
+</testcase>
+<testcase assertions="3" classname="DoublyListTests" name="Clear" time="1.5e-05">
+</testcase>
+<testcase assertions="12" classname="StackQueueTests" name="StackIsLifo" time="1.7e-05">
+</testcase>
+<testcase assertions="10" classname="StackQueueTests" name="QueueIsFifo" time="1.6e-05">
+</testcase>
+<testcase assertions="16" classname="RBTreeTests" name="InsertBalancesLikeLab1" time="3e-05">
+</testcase>
+<testcase assertions="22" classname="RBTreeTests" name="SearchMinMaxNextPrev" time="2.4e-05">
+</testcase>
+<testcase assertions="12" classname="RBTreeTests" name="EraseAllCases" time="2e-05">
+</testcase>
+<testcase assertions="2" classname="RBTreeTests" name="StaysValidUnderRandomOps" time="0.00078">
+</testcase>
+<testcase assertions="8" classname="RBTreeTests" name="OrderingAndDiagram" time="2.4e-05">
+</testcase>
+<testcase assertions="4" classname="HashTableTests" name="HashFunction" time="1.5e-05">
+</testcase>
+<testcase assertions="17" classname="HashTableTests.PutGetRemove" name="_0" time="2.7e-05">
+</testcase>
+<testcase assertions="17" classname="HashTableTests.PutGetRemove" name="_1" time="2.1e-05">
+</testcase>
+<testcase assertions="17" classname="HashTableTests.PutGetRemove" name="_2" time="1.9e-05">
+</testcase>
+<testcase assertions="7" classname="HashTableTests.GrowsAndKeepsAllKeys" name="_0" time="0.000327">
+</testcase>
+<testcase assertions="7" classname="HashTableTests.GrowsAndKeepsAllKeys" name="_1" time="0.000784">
+</testcase>
+<testcase assertions="7" classname="HashTableTests.GrowsAndKeepsAllKeys" name="_2" time="0.000557">
+</testcase>
+<testcase assertions="12" classname="HashTableTests" name="ChainSpecifics" time="2.6e-05">
+</testcase>
+<testcase assertions="19" classname="HashTableTests" name="OpenAddressingTombstones" time="2.4e-05">
+</testcase>
+<testcase assertions="16" classname="HashTableTests" name="OpenHelpersAndCopies" time="2.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_0" time="2.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_1" time="2.2e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_2" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_3" time="1.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_4" time="1.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_5" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_6" time="1.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_7" time="1.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_8" time="1.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_9" time="2.1e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_10" time="2e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_11" time="1.8e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_12" time="1.7e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_13" time="1.7e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_14" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_15" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_16" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.Roundtrip" name="_17" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_0" time="1.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_1" time="1.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_2" time="1.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_3" time="1.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_4" time="1.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_5" time="1.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_6" time="1.4e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_7" time="1.5e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.EmptyContainer" name="_8" time="1.4e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_0" time="4.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_1" time="1.7e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_2" time="1.7e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_3" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_4" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_5" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_6" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_7" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_8" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_9" time="1.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_10" time="4.6e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_11" time="2.1e-05">
+</testcase>
+<testcase assertions="2" classname="SerializationTests.RejectsBadJson" name="_12" time="1.7e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.RejectsBadTree" name="_0" time="2.3e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.RejectsBadTree" name="_1" time="2.6e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.RejectsBadTree" name="_2" time="2e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.RejectsBadTree" name="_3" time="1.9e-05">
+</testcase>
+<testcase assertions="3" classname="SerializationTests.RejectsBadTree" name="_4" time="1.8e-05">
+</testcase>
+<testcase assertions="5" classname="SerializationTests" name="TextFormatIsLab1Json" time="2.3e-05">
+</testcase>
+<testcase assertions="11" classname="SerializationTests" name="JsonParsingLikeLab1" time="2.3e-05">
+</testcase>
+<testcase assertions="4" classname="SerializationTests" name="FilesRoundtrip" time="7.7e-05">
+</testcase>
+<testcase assertions="9" classname="SerializationTests" name="RejectsBadBinary" time="4.4e-05">
+</testcase>
+</testsuite>

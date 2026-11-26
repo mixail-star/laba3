@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Сборка с покрытием, запуск трёх наборов тестов и HTML-отчёт gcovr одним файлом coverage/index.html
+# Сборка с покрытием, запуск трёх наборов тестов и HTML-отчёт gcovr coverage/index.html (таблица по файлам + страницы с подсветкой строк)
 set -euo pipefail
 cd "$(dirname "$0")/.."
 if ! command -v gcovr >/dev/null; then
@@ -16,4 +16,4 @@ gcovr -r . build-cov/CMakeFiles/lab3_core.dir/src \
     build-cov/CMakeFiles/tests_boost.dir/tests \
     build-cov/CMakeFiles/tests_gtest.dir/tests \
     build-cov/CMakeFiles/tests_catch2.dir/tests \
-    --filter src/ --filter include/ --html --html-title 'ЛР3: покрытие C++' -o coverage/index.html --print-summary
+    --filter src/ --filter include/ --html-details --html-title 'ЛР3: покрытие C++' -o coverage/index.html --print-summary

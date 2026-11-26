@@ -1,4 +1,4 @@
-# Install script for directory: /home/schetinin/Desktop/lw3/cpp
+# Install script for directory: /home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/schetinin/Desktop/lw3/cpp/build/install_local_manifest.txt"
+  file(WRITE "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/schetinin/Desktop/lw3/cpp/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

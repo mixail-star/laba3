@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/schetinin/Desktop/lw3/cpp/tests/catch2_tests.cpp" "CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o" "gcc" "CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o.d"
+  "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/catch2_tests.cpp" "CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o" "gcc" "CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o.d"
   "" "tests_catch2" "gcc" "CMakeFiles/tests_catch2.dir/link.d"
   )
 

@@ -1,12 +1,12 @@
 CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
- /home/schetinin/Desktop/lw3/cpp/tests/boost_tests.cpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/tests/boost_tests.cpp \
  /usr/include/stdc-predef.h /usr/include/boost/test/unit_test.hpp \
  /usr/include/boost/test/test_tools.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/detail/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/14/cstddef \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
+ /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/15/cstddef \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -14,12 +14,12 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/cpu_defines.h \
- /usr/include/c++/14/pstl/pstl_config.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h \
- /usr/include/c++/14/bits/version.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/cpu_defines.h \
+ /usr/include/c++/15/pstl/pstl_config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stddef.h \
+ /usr/include/c++/15/bits/version.h \
  /usr/include/boost/config/detail/select_stdlib_config.hpp \
- /usr/include/c++/14/version \
+ /usr/include/c++/15/version \
  /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -29,10 +29,12 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
  /usr/include/boost/config/detail/select_platform_config.hpp \
- /usr/include/boost/config/platform/linux.hpp /usr/include/c++/14/cstdlib \
+ /usr/include/boost/config/platform/linux.hpp /usr/include/c++/15/cstdlib \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -57,6 +59,8 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -65,7 +69,8 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/14/bits/std_abs.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/15/bits/std_abs.h \
  /usr/include/boost/config/detail/posix_features.hpp \
  /usr/include/boost/config/detail/suffix.hpp \
  /usr/include/boost/config/helper_macros.hpp \
@@ -83,75 +88,79 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/test/utils/basic_cstring/bcs_char_traits.hpp \
  /usr/include/boost/type_traits/add_const.hpp \
  /usr/include/boost/type_traits/detail/config.hpp \
- /usr/include/boost/version.hpp /usr/include/c++/14/string \
- /usr/include/c++/14/bits/requires_hosted.h \
- /usr/include/c++/14/bits/stringfwd.h \
- /usr/include/c++/14/bits/memoryfwd.h \
- /usr/include/c++/14/bits/char_traits.h \
- /usr/include/c++/14/bits/postypes.h /usr/include/c++/14/cwchar \
- /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h \
+ /usr/include/boost/version.hpp /usr/include/c++/15/string \
+ /usr/include/c++/15/bits/requires_hosted.h \
+ /usr/include/c++/15/bits/stringfwd.h \
+ /usr/include/c++/15/bits/memoryfwd.h \
+ /usr/include/c++/15/bits/char_traits.h \
+ /usr/include/c++/15/bits/postypes.h /usr/include/c++/15/cwchar \
+ /usr/include/wchar.h /usr/lib/gcc/x86_64-linux-gnu/15/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
- /usr/include/c++/14/type_traits /usr/include/c++/14/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++allocator.h \
- /usr/include/c++/14/bits/new_allocator.h /usr/include/c++/14/new \
- /usr/include/c++/14/bits/exception.h \
- /usr/include/c++/14/bits/functexcept.h \
- /usr/include/c++/14/bits/exception_defines.h \
- /usr/include/c++/14/bits/move.h \
- /usr/include/c++/14/bits/cpp_type_traits.h \
- /usr/include/c++/14/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++locale.h \
- /usr/include/c++/14/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/14/iosfwd \
- /usr/include/c++/14/cctype /usr/include/ctype.h \
- /usr/include/c++/14/bits/ostream_insert.h \
- /usr/include/c++/14/bits/cxxabi_forced.h \
- /usr/include/c++/14/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/14/bits/concept_check.h \
- /usr/include/c++/14/debug/assertions.h \
- /usr/include/c++/14/bits/stl_iterator_base_types.h \
- /usr/include/c++/14/bits/stl_iterator.h \
- /usr/include/c++/14/ext/type_traits.h \
- /usr/include/c++/14/bits/ptr_traits.h \
- /usr/include/c++/14/bits/stl_function.h \
- /usr/include/c++/14/backward/binders.h \
- /usr/include/c++/14/ext/numeric_traits.h \
- /usr/include/c++/14/bits/stl_algobase.h \
- /usr/include/c++/14/bits/stl_pair.h /usr/include/c++/14/bits/utility.h \
- /usr/include/c++/14/debug/debug.h \
- /usr/include/c++/14/bits/predefined_ops.h /usr/include/c++/14/bit \
- /usr/include/c++/14/concepts /usr/include/c++/14/bits/refwrap.h \
- /usr/include/c++/14/bits/invoke.h \
- /usr/include/c++/14/bits/range_access.h \
- /usr/include/c++/14/initializer_list \
- /usr/include/c++/14/bits/basic_string.h \
- /usr/include/c++/14/ext/alloc_traits.h \
- /usr/include/c++/14/bits/alloc_traits.h \
- /usr/include/c++/14/bits/stl_construct.h /usr/include/c++/14/string_view \
- /usr/include/c++/14/bits/functional_hash.h \
- /usr/include/c++/14/bits/hash_bytes.h \
- /usr/include/c++/14/bits/string_view.tcc \
- /usr/include/c++/14/ext/string_conversions.h /usr/include/c++/14/cstdio \
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/15/type_traits /usr/include/c++/15/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/c++allocator.h \
+ /usr/include/c++/15/bits/new_allocator.h /usr/include/c++/15/new \
+ /usr/include/c++/15/bits/exception.h \
+ /usr/include/c++/15/bits/functexcept.h \
+ /usr/include/c++/15/bits/exception_defines.h \
+ /usr/include/c++/15/bits/move.h \
+ /usr/include/c++/15/bits/cpp_type_traits.h \
+ /usr/include/c++/15/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/c++locale.h \
+ /usr/include/c++/15/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/15/iosfwd \
+ /usr/include/c++/15/cctype /usr/include/ctype.h \
+ /usr/include/c++/15/bits/ostream_insert.h \
+ /usr/include/c++/15/bits/cxxabi_forced.h \
+ /usr/include/c++/15/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/15/bits/concept_check.h \
+ /usr/include/c++/15/debug/assertions.h \
+ /usr/include/c++/15/bits/stl_iterator_base_types.h \
+ /usr/include/c++/15/bits/stl_iterator.h \
+ /usr/include/c++/15/ext/type_traits.h \
+ /usr/include/c++/15/bits/ptr_traits.h \
+ /usr/include/c++/15/bits/stl_function.h \
+ /usr/include/c++/15/backward/binders.h \
+ /usr/include/c++/15/ext/numeric_traits.h \
+ /usr/include/c++/15/bits/stl_algobase.h \
+ /usr/include/c++/15/bits/stl_pair.h /usr/include/c++/15/bits/utility.h \
+ /usr/include/c++/15/debug/debug.h \
+ /usr/include/c++/15/bits/predefined_ops.h /usr/include/c++/15/bit \
+ /usr/include/c++/15/concepts /usr/include/c++/15/bits/refwrap.h \
+ /usr/include/c++/15/bits/invoke.h \
+ /usr/include/c++/15/bits/range_access.h \
+ /usr/include/c++/15/initializer_list \
+ /usr/include/c++/15/bits/basic_string.h \
+ /usr/include/c++/15/ext/alloc_traits.h \
+ /usr/include/c++/15/bits/alloc_traits.h \
+ /usr/include/c++/15/bits/stl_construct.h /usr/include/c++/15/string_view \
+ /usr/include/c++/15/bits/functional_hash.h \
+ /usr/include/c++/15/bits/hash_bytes.h \
+ /usr/include/c++/15/bits/string_view.tcc \
+ /usr/include/c++/15/ext/string_conversions.h /usr/include/c++/15/cstdio \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h /usr/include/c++/14/cerrno \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/15/cerrno \
  /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/lib/linux/uapi/x86/asm/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/14/bits/charconv.h \
- /usr/include/c++/14/bits/basic_string.tcc \
- /usr/include/c++/14/bits/memory_resource.h \
- /usr/include/c++/14/bits/uses_allocator.h \
- /usr/include/c++/14/bits/uses_allocator_args.h /usr/include/c++/14/tuple \
+ /usr/include/c++/15/bits/charconv.h \
+ /usr/include/c++/15/bits/basic_string.tcc \
+ /usr/include/c++/15/bits/memory_resource.h \
+ /usr/include/c++/15/bits/uses_allocator.h \
+ /usr/include/c++/15/bits/uses_allocator_args.h /usr/include/c++/15/tuple \
  /usr/include/boost/test/detail/suppress_warnings.hpp \
  /usr/include/boost/test/detail/enable_warnings.hpp \
  /usr/include/boost/type_traits/remove_cv.hpp \
@@ -285,23 +294,24 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/type_traits/is_floating_point.hpp \
  /usr/include/boost/type_traits/add_lvalue_reference.hpp \
  /usr/include/boost/type_traits/add_reference.hpp \
- /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
- /usr/include/c++/14/ios /usr/include/c++/14/exception \
- /usr/include/c++/14/bits/exception_ptr.h \
- /usr/include/c++/14/bits/cxxabi_init_exception.h \
- /usr/include/c++/14/typeinfo /usr/include/c++/14/bits/nested_exception.h \
- /usr/include/c++/14/bits/ios_base.h /usr/include/c++/14/ext/atomicity.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/gthr.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/gthr-default.h \
+ /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h \
+ /usr/include/c++/15/ios /usr/include/c++/15/exception \
+ /usr/include/c++/15/bits/exception_ptr.h \
+ /usr/include/c++/15/bits/cxxabi_init_exception.h \
+ /usr/include/c++/15/typeinfo /usr/include/c++/15/bits/nested_exception.h \
+ /usr/include/c++/15/bits/ios_base.h /usr/include/c++/15/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/linux/sched/types.h /usr/include/linux/types.h \
- /usr/lib/linux/uapi/x86/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h \
- /usr/lib/linux/uapi/x86/asm/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
  /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/lib/linux/uapi/x86/asm/posix_types.h \
- /usr/lib/linux/uapi/x86/asm/posix_types_64.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
@@ -312,25 +322,25 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/atomic_word.h \
  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
- /usr/include/c++/14/bits/locale_classes.h \
- /usr/include/c++/14/bits/locale_classes.tcc \
- /usr/include/c++/14/system_error \
- /usr/include/x86_64-linux-gnu/c++/14/bits/error_constants.h \
- /usr/include/c++/14/stdexcept /usr/include/c++/14/streambuf \
- /usr/include/c++/14/bits/streambuf.tcc \
- /usr/include/c++/14/bits/basic_ios.h \
- /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
+ /usr/include/c++/15/bits/locale_classes.h \
+ /usr/include/c++/15/bits/locale_classes.tcc \
+ /usr/include/c++/15/system_error \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/error_constants.h \
+ /usr/include/c++/15/stdexcept /usr/include/c++/15/streambuf \
+ /usr/include/c++/15/bits/streambuf.tcc \
+ /usr/include/c++/15/bits/basic_ios.h \
+ /usr/include/c++/15/bits/locale_facets.h /usr/include/c++/15/cwctype \
  /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_base.h \
- /usr/include/c++/14/bits/streambuf_iterator.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/ctype_inline.h \
- /usr/include/c++/14/bits/locale_facets.tcc \
- /usr/include/c++/14/bits/basic_ios.tcc /usr/include/c++/14/iostream \
- /usr/include/c++/14/ostream /usr/include/c++/14/bits/ostream.tcc \
- /usr/include/c++/14/istream /usr/include/c++/14/bits/istream.tcc \
- /usr/include/c++/14/limits \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_base.h \
+ /usr/include/c++/15/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/ctype_inline.h \
+ /usr/include/c++/15/bits/locale_facets.tcc \
+ /usr/include/c++/15/bits/basic_ios.tcc /usr/include/c++/15/iostream \
+ /usr/include/c++/15/ostream /usr/include/c++/15/bits/ostream.h \
+ /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
+ /usr/include/c++/15/bits/istream.tcc /usr/include/c++/15/limits \
  /usr/include/boost/test/detail/pp_variadic.hpp \
  /usr/include/boost/preprocessor/repetition/enum_params.hpp \
  /usr/include/boost/preprocessor/repetition/enum_binary_params.hpp \
@@ -362,7 +372,7 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/test/detail/fwd_decl.hpp \
  /usr/include/boost/test/detail/log_level.hpp \
  /usr/include/boost/test/utils/wrap_stringstream.hpp \
- /usr/include/c++/14/sstream /usr/include/c++/14/bits/sstream.tcc \
+ /usr/include/c++/15/sstream /usr/include/c++/15/bits/sstream.tcc \
  /usr/include/boost/test/tools/assertion_result.hpp \
  /usr/include/boost/test/utils/class_properties.hpp \
  /usr/include/boost/call_traits.hpp \
@@ -373,72 +383,70 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/utility/addressof.hpp \
  /usr/include/boost/core/addressof.hpp /usr/include/boost/shared_ptr.hpp \
  /usr/include/boost/smart_ptr/shared_ptr.hpp \
- /usr/include/boost/smart_ptr/detail/requires_cxx11.hpp \
- /usr/include/boost/config/pragma_message.hpp \
  /usr/include/boost/smart_ptr/detail/shared_count.hpp \
  /usr/include/boost/smart_ptr/bad_weak_ptr.hpp \
  /usr/include/boost/smart_ptr/detail/sp_counted_base.hpp \
- /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
- /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
- /usr/include/boost/smart_ptr/detail/sp_counted_base_gcc_atomic.hpp \
+ /usr/include/boost/smart_ptr/detail/deprecated_macros.hpp \
+ /usr/include/boost/config/pragma_message.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp \
  /usr/include/boost/smart_ptr/detail/sp_typeinfo_.hpp \
- /usr/include/boost/cstdint.hpp \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
+ /usr/include/c++/15/atomic /usr/include/c++/15/bits/atomic_base.h \
+ /usr/include/c++/15/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
- /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
- /usr/include/boost/core/checked_delete.hpp /usr/include/c++/14/memory \
- /usr/include/c++/14/bits/stl_tempbuf.h \
- /usr/include/c++/14/bits/stl_uninitialized.h \
- /usr/include/c++/14/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14/bits/align.h /usr/include/c++/14/bits/unique_ptr.h \
- /usr/include/c++/14/bits/shared_ptr.h \
- /usr/include/c++/14/bits/shared_ptr_base.h \
- /usr/include/c++/14/bits/allocated_ptr.h \
- /usr/include/c++/14/ext/aligned_buffer.h \
- /usr/include/c++/14/ext/concurrence.h \
- /usr/include/c++/14/bits/shared_ptr_atomic.h \
- /usr/include/c++/14/bits/atomic_base.h \
- /usr/include/c++/14/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14/backward/auto_ptr.h \
- /usr/include/c++/14/pstl/glue_memory_defs.h \
- /usr/include/c++/14/pstl/execution_defs.h \
+ /usr/include/boost/core/checked_delete.hpp /usr/include/c++/15/memory \
+ /usr/include/c++/15/bits/stl_tempbuf.h \
+ /usr/include/c++/15/bits/stl_uninitialized.h \
+ /usr/include/c++/15/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15/bits/align.h /usr/include/c++/15/bits/unique_ptr.h \
+ /usr/include/c++/15/bits/shared_ptr.h \
+ /usr/include/c++/15/bits/shared_ptr_base.h \
+ /usr/include/c++/15/bits/allocated_ptr.h \
+ /usr/include/c++/15/ext/aligned_buffer.h \
+ /usr/include/c++/15/ext/concurrence.h \
+ /usr/include/c++/15/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15/backward/auto_ptr.h \
+ /usr/include/c++/15/pstl/glue_memory_defs.h \
+ /usr/include/c++/15/pstl/execution_defs.h \
  /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
  /usr/include/boost/throw_exception.hpp \
  /usr/include/boost/exception/exception.hpp \
  /usr/include/boost/assert/source_location.hpp \
- /usr/include/boost/current_function.hpp /usr/include/c++/14/cstring \
+ /usr/include/boost/cstdint.hpp /usr/include/c++/15/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/14/functional /usr/include/c++/14/bits/std_function.h \
- /usr/include/c++/14/unordered_map \
- /usr/include/c++/14/bits/unordered_map.h \
- /usr/include/c++/14/bits/hashtable.h \
- /usr/include/c++/14/bits/hashtable_policy.h \
- /usr/include/c++/14/bits/enable_special_members.h \
- /usr/include/c++/14/bits/node_handle.h \
- /usr/include/c++/14/bits/erase_if.h /usr/include/c++/14/vector \
- /usr/include/c++/14/bits/stl_vector.h \
- /usr/include/c++/14/bits/stl_bvector.h \
- /usr/include/c++/14/bits/vector.tcc /usr/include/c++/14/array \
- /usr/include/c++/14/compare \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/c++/15/functional /usr/include/c++/15/bits/std_function.h \
+ /usr/include/c++/15/unordered_map \
+ /usr/include/c++/15/bits/unordered_map.h \
+ /usr/include/c++/15/bits/hashtable.h \
+ /usr/include/c++/15/bits/hashtable_policy.h \
+ /usr/include/c++/15/bits/enable_special_members.h \
+ /usr/include/c++/15/bits/node_handle.h \
+ /usr/include/c++/15/bits/erase_if.h /usr/include/c++/15/vector \
+ /usr/include/c++/15/bits/stl_vector.h \
+ /usr/include/c++/15/bits/stl_bvector.h \
+ /usr/include/c++/15/bits/vector.tcc /usr/include/c++/15/array \
+ /usr/include/c++/15/compare \
  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
- /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
  /usr/include/boost/assert.hpp /usr/include/assert.h \
  /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
  /usr/include/boost/smart_ptr/detail/spinlock.hpp \
- /usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp \
+ /usr/include/boost/smart_ptr/detail/spinlock_std_atomic.hpp \
  /usr/include/boost/smart_ptr/detail/yield_k.hpp \
  /usr/include/boost/core/yield_primitives.hpp \
  /usr/include/boost/core/detail/sp_thread_pause.hpp \
  /usr/include/boost/core/detail/sp_thread_yield.hpp \
  /usr/include/boost/core/detail/sp_thread_sleep.hpp \
- /usr/include/c++/14/algorithm /usr/include/c++/14/bits/stl_algo.h \
- /usr/include/c++/14/bits/algorithmfwd.h \
- /usr/include/c++/14/bits/stl_heap.h \
- /usr/include/c++/14/bits/uniform_int_dist.h \
- /usr/include/c++/14/pstl/glue_algorithm_defs.h \
- /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
+ /usr/include/c++/15/algorithm /usr/include/c++/15/bits/stl_algo.h \
+ /usr/include/c++/15/bits/algorithmfwd.h \
+ /usr/include/c++/15/bits/stl_heap.h \
+ /usr/include/c++/15/bits/uniform_int_dist.h \
+ /usr/include/c++/15/pstl/glue_algorithm_defs.h \
  /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
  /usr/include/boost/smart_ptr/detail/local_counted_base.hpp \
  /usr/include/boost/test/tools/floating_point_comparison.hpp \
@@ -499,9 +507,9 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp \
  /usr/include/boost/mpl/less.hpp \
  /usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
- /usr/include/c++/14/climits \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/14/include/syslimits.h \
+ /usr/include/c++/15/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
  /usr/include/linux/limits.h \
@@ -525,46 +533,18 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/scoped_ptr.hpp \
  /usr/include/boost/smart_ptr/scoped_ptr.hpp \
  /usr/include/boost/function/function0.hpp \
- /usr/include/boost/function/detail/maybe_include.hpp \
  /usr/include/boost/function/function_template.hpp \
- /usr/include/boost/function/detail/prologue.hpp \
- /usr/include/boost/function/detail/requires_cxx11.hpp \
- /usr/include/c++/14/cassert \
- /usr/include/boost/config/no_tr1/functional.hpp \
  /usr/include/boost/function/function_base.hpp \
  /usr/include/boost/function/function_fwd.hpp \
  /usr/include/boost/function_equal.hpp \
  /usr/include/boost/core/typeinfo.hpp \
- /usr/include/boost/core/demangle.hpp /usr/include/c++/14/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/cxxabi_tweaks.h \
+ /usr/include/boost/core/demangle.hpp /usr/include/c++/15/cxxabi.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/cxxabi_tweaks.h \
  /usr/include/boost/core/ref.hpp \
- /usr/include/boost/type_traits/has_trivial_copy.hpp \
- /usr/include/boost/type_traits/is_pod.hpp \
- /usr/include/boost/type_traits/is_scalar.hpp \
- /usr/include/boost/type_traits/is_member_pointer.hpp \
- /usr/include/boost/type_traits/is_member_function_pointer.hpp \
- /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
- /usr/include/boost/type_traits/is_copy_constructible.hpp \
- /usr/include/boost/type_traits/is_constructible.hpp \
- /usr/include/boost/type_traits/is_destructible.hpp \
- /usr/include/boost/type_traits/is_default_constructible.hpp \
- /usr/include/boost/type_traits/has_trivial_destructor.hpp \
- /usr/include/boost/type_traits/is_const.hpp \
- /usr/include/boost/type_traits/is_volatile.hpp \
- /usr/include/boost/type_traits/composite_traits.hpp \
- /usr/include/boost/type_traits/is_union.hpp \
- /usr/include/boost/type_traits/alignment_of.hpp \
- /usr/include/boost/type_traits/enable_if.hpp \
- /usr/include/boost/mem_fn.hpp /usr/include/boost/bind/mem_fn.hpp \
- /usr/include/boost/bind/detail/requires_cxx11.hpp \
- /usr/include/boost/get_pointer.hpp \
- /usr/include/boost/config/no_tr1/memory.hpp \
- /usr/include/boost/bind/mem_fn_template.hpp \
- /usr/include/boost/bind/mem_fn_cc.hpp \
- /usr/include/boost/preprocessor/enum.hpp \
- /usr/include/boost/preprocessor/repetition/enum.hpp \
- /usr/include/boost/preprocessor/enum_params.hpp \
  /usr/include/boost/core/no_exceptions_support.hpp \
+ /usr/include/boost/mem_fn.hpp /usr/include/boost/bind/mem_fn.hpp \
+ /usr/include/boost/get_pointer.hpp \
+ /usr/include/boost/config/no_tr1/memory.hpp /usr/include/c++/15/cassert \
  /usr/include/boost/function/function1.hpp \
  /usr/include/boost/type_traits/common_type.hpp \
  /usr/include/boost/type_traits/detail/mp_defer.hpp \
@@ -577,8 +557,8 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/test/tools/detail/it_pair.hpp \
  /usr/include/boost/test/tools/detail/bitwise_manip.hpp \
  /usr/include/boost/test/tools/detail/indirections.hpp \
- /usr/include/c++/14/list /usr/include/c++/14/bits/stl_list.h \
- /usr/include/c++/14/bits/list.tcc \
+ /usr/include/c++/15/list /usr/include/c++/15/bits/stl_list.h \
+ /usr/include/c++/15/bits/list.tcc \
  /usr/include/boost/test/tools/detail/tolerance_manip.hpp \
  /usr/include/boost/test/tools/detail/per_element_manip.hpp \
  /usr/include/boost/test/tools/detail/lexicographic_manip.hpp \
@@ -586,9 +566,9 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/test/framework.hpp \
  /usr/include/boost/test/detail/throw_exception.hpp \
  /usr/include/boost/test/tree/auto_registration.hpp \
- /usr/include/boost/test/tree/test_unit.hpp /usr/include/c++/14/map \
- /usr/include/c++/14/bits/stl_tree.h /usr/include/c++/14/bits/stl_map.h \
- /usr/include/c++/14/bits/stl_multimap.h \
+ /usr/include/boost/test/tree/test_unit.hpp /usr/include/c++/15/map \
+ /usr/include/c++/15/bits/stl_tree.h /usr/include/c++/15/bits/stl_map.h \
+ /usr/include/c++/15/bits/stl_multimap.h \
  /usr/include/boost/test/tree/test_case_template.hpp \
  /usr/include/boost/test/utils/algorithm.hpp \
  /usr/include/boost/mpl/for_each.hpp \
@@ -630,18 +610,120 @@ CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o: \
  /usr/include/boost/mpl/aux_/msvc_type.hpp \
  /usr/include/boost/mpl/aux_/unwrap.hpp /usr/include/boost/ref.hpp \
  /usr/include/boost/utility/value_init.hpp \
- /usr/include/boost/core/swap.hpp \
+ /usr/include/boost/core/invoke_swap.hpp \
+ /usr/include/boost/type_traits/is_const.hpp \
+ /usr/include/boost/type_traits/is_volatile.hpp \
  /usr/include/boost/test/tree/global_fixture.hpp \
- /usr/include/boost/config/auto_link.hpp \
- /home/schetinin/Desktop/lw3/cpp/tests/helpers.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/array.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/container.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/serializable.hpp \
- /usr/include/c++/14/cstdint \
- /home/schetinin/Desktop/lw3/cpp/include/doubly_list.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/hash_table.hpp \
- /usr/include/c++/14/optional \
- /home/schetinin/Desktop/lw3/cpp/include/queue.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/singly_list.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/rb_tree.hpp \
- /home/schetinin/Desktop/lw3/cpp/include/stack.hpp
+ /usr/include/boost/test/data/test_case.hpp \
+ /usr/include/boost/test/data/config.hpp \
+ /usr/include/boost/test/data/dataset.hpp \
+ /usr/include/boost/test/data/monomorphic.hpp \
+ /usr/include/boost/test/data/monomorphic/array.hpp \
+ /usr/include/boost/test/data/monomorphic/fwd.hpp \
+ /usr/include/boost/test/data/size.hpp \
+ /usr/include/boost/test/data/monomorphic/collection.hpp \
+ /usr/include/boost/test/data/monomorphic/initializer_list.hpp \
+ /usr/include/boost/test/data/monomorphic/generate.hpp \
+ /usr/include/boost/test/data/monomorphic/generators.hpp \
+ /usr/include/boost/test/data/monomorphic/generators/xrange.hpp \
+ /usr/include/boost/test/data/monomorphic/generators/keywords.hpp \
+ /usr/include/boost/test/utils/named_params.hpp \
+ /usr/include/boost/test/utils/rtti.hpp \
+ /usr/include/boost/test/utils/assign_op.hpp \
+ /usr/include/boost/optional.hpp /usr/include/boost/optional/optional.hpp \
+ /usr/include/boost/core/launder.hpp \
+ /usr/include/boost/optional/bad_optional_access.hpp \
+ /usr/include/boost/type_traits/alignment_of.hpp \
+ /usr/include/boost/type_traits/conjunction.hpp \
+ /usr/include/boost/type_traits/disjunction.hpp \
+ /usr/include/boost/type_traits/has_nothrow_constructor.hpp \
+ /usr/include/boost/type_traits/is_default_constructible.hpp \
+ /usr/include/boost/type_traits/type_with_alignment.hpp \
+ /usr/include/boost/type_traits/is_pod.hpp \
+ /usr/include/boost/type_traits/is_scalar.hpp \
+ /usr/include/boost/type_traits/is_member_pointer.hpp \
+ /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+ /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+ /usr/include/boost/type_traits/is_assignable.hpp \
+ /usr/include/boost/type_traits/is_base_of.hpp \
+ /usr/include/boost/type_traits/is_base_and_derived.hpp \
+ /usr/include/boost/type_traits/is_class.hpp \
+ /usr/include/boost/type_traits/is_constructible.hpp \
+ /usr/include/boost/type_traits/is_destructible.hpp \
+ /usr/include/boost/type_traits/is_nothrow_move_assignable.hpp \
+ /usr/include/boost/type_traits/has_trivial_move_assign.hpp \
+ /usr/include/boost/type_traits/has_nothrow_assign.hpp \
+ /usr/include/boost/type_traits/enable_if.hpp \
+ /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp \
+ /usr/include/boost/none.hpp /usr/include/boost/none_t.hpp \
+ /usr/include/boost/optional/optional_fwd.hpp \
+ /usr/include/boost/optional/detail/optional_config.hpp \
+ /usr/include/boost/optional/detail/optional_factory_support.hpp \
+ /usr/include/boost/optional/detail/optional_aligned_storage.hpp \
+ /usr/include/boost/optional/detail/optional_hash.hpp \
+ /usr/include/boost/optional/detail/optional_utility.hpp \
+ /usr/include/boost/optional/detail/optional_trivially_copyable_base.hpp \
+ /usr/include/boost/optional/detail/optional_reference_spec.hpp \
+ /usr/include/boost/optional/detail/optional_relops.hpp \
+ /usr/include/boost/optional/detail/optional_swap.hpp \
+ /usr/include/boost/type_traits/is_unsigned.hpp /usr/include/c++/15/cmath \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-macros.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/15/bits/specfun.h /usr/include/c++/15/tr1/gamma.tcc \
+ /usr/include/c++/15/tr1/special_function_util.h \
+ /usr/include/c++/15/tr1/bessel_function.tcc \
+ /usr/include/c++/15/tr1/beta_function.tcc \
+ /usr/include/c++/15/tr1/ell_integral.tcc \
+ /usr/include/c++/15/tr1/exp_integral.tcc \
+ /usr/include/c++/15/tr1/hypergeometric.tcc \
+ /usr/include/c++/15/tr1/legendre_function.tcc \
+ /usr/include/c++/15/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/15/tr1/poly_hermite.tcc \
+ /usr/include/c++/15/tr1/poly_laguerre.tcc \
+ /usr/include/c++/15/tr1/riemann_zeta.tcc \
+ /usr/include/boost/test/data/monomorphic/generators/random.hpp \
+ /usr/include/c++/15/random /usr/include/c++/15/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/15/bits/opt_random.h \
+ /usr/include/c++/15/bits/random.tcc /usr/include/c++/15/numeric \
+ /usr/include/c++/15/bits/stl_numeric.h \
+ /usr/include/c++/15/pstl/glue_numeric_defs.h \
+ /usr/include/boost/test/data/monomorphic/grid.hpp \
+ /usr/include/boost/test/data/monomorphic/sample_merge.hpp \
+ /usr/include/boost/test/data/index_sequence.hpp \
+ /usr/include/boost/test/data/monomorphic/join.hpp \
+ /usr/include/boost/test/data/monomorphic/singleton.hpp \
+ /usr/include/boost/test/data/monomorphic/zip.hpp \
+ /usr/include/boost/test/data/monomorphic/delayed.hpp \
+ /usr/include/boost/test/data/for_each_sample.hpp \
+ /usr/include/boost/bind/bind.hpp /usr/include/boost/bind/arg.hpp \
+ /usr/include/boost/is_placeholder.hpp \
+ /usr/include/boost/bind/std_placeholders.hpp \
+ /usr/include/boost/bind/detail/result_traits.hpp \
+ /usr/include/boost/bind/detail/tuple_for_each.hpp \
+ /usr/include/boost/bind/detail/integer_sequence.hpp \
+ /usr/include/boost/visit_each.hpp \
+ /usr/include/boost/bind/detail/bind_cc.hpp \
+ /usr/include/boost/bind/detail/bind_mf_cc.hpp \
+ /usr/include/boost/bind/detail/bind_mf2_cc.hpp \
+ /usr/include/boost/bind/placeholders.hpp \
+ /usr/include/boost/type_traits/is_copy_constructible.hpp \
+ /usr/include/boost/test/utils/string_cast.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/tests/helpers.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/array.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/container.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/serializable.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/doubly_list.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/hash_table.hpp \
+ /usr/include/c++/15/optional \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/queue.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/singly_list.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/rb_tree.hpp \
+ /home/mixail/Рабочий\ стол/Работы\ 3\ семестр/Програмирование/лаба3/src/cpp/include/stack.hpp

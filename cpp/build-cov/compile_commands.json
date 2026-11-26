@@ -1,80 +1,86 @@
 [
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/codec.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/codec.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/codec.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/codec.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/codec.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/codec.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/codec.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/serializable.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/serializable.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/serializable.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/serializable.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/serializable.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/serializable.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/serializable.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/sequence.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/sequence.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/sequence.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/sequence.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/sequence.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/sequence.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/sequence.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/array.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/array.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/array.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/array.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/array.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/array.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/array.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/singly_list.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/singly_list.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/singly_list.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/singly_list.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/singly_list.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/singly_list.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/singly_list.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/doubly_list.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/doubly_list.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/doubly_list.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/doubly_list.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/doubly_list.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/doubly_list.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/doubly_list.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/stack_queue.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/stack_queue.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/stack_queue.cpp",
-  "output": "CMakeFiles/lab3_core.dir/src/stack_queue.cpp.o"
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/stack.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/stack.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/stack.cpp",
+  "output": "CMakeFiles/lab3_core.dir/src/stack.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/rb_tree.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/rb_tree.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/rb_tree.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/queue.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/queue.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/queue.cpp",
+  "output": "CMakeFiles/lab3_core.dir/src/queue.cpp.o"
+},
+{
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/rb_tree.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/rb_tree.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/rb_tree.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/rb_tree.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/hash_table.cpp.o -c /home/schetinin/Desktop/lw3/cpp/src/hash_table.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/src/hash_table.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -Wall -Wextra -Wpedantic -o CMakeFiles/lab3_core.dir/src/hash_table.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/hash_table.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/src/hash_table.cpp",
   "output": "CMakeFiles/lab3_core.dir/src/hash_table.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -o CMakeFiles/lab3_demo.dir/main.cpp.o -c /home/schetinin/Desktop/lw3/cpp/main.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/main.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -o CMakeFiles/lab3_demo.dir/main.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/main.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/main.cpp",
   "output": "CMakeFiles/lab3_demo.dir/main.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++ -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -o CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o -c /home/schetinin/Desktop/lw3/cpp/tests/boost_tests.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/tests/boost_tests.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++ -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_NO_LIB -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -o CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/boost_tests.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/boost_tests.cpp",
   "output": "CMakeFiles/tests_boost.dir/tests/boost_tests.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/tests_gtest.dir/tests/gtest_tests.cpp.o -c /home/schetinin/Desktop/lw3/cpp/tests/gtest_tests.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/tests/gtest_tests.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -DGTEST_HAS_PTHREAD=1 -o CMakeFiles/tests_gtest.dir/tests/gtest_tests.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/gtest_tests.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/gtest_tests.cpp",
   "output": "CMakeFiles/tests_gtest.dir/tests/gtest_tests.cpp.o"
 },
 {
-  "directory": "/home/schetinin/Desktop/lw3/cpp/build-cov",
-  "command": "/usr/bin/c++  -I/home/schetinin/Desktop/lw3/cpp/include -g -std=gnu++17 --coverage -O0 -g -o CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o -c /home/schetinin/Desktop/lw3/cpp/tests/catch2_tests.cpp",
-  "file": "/home/schetinin/Desktop/lw3/cpp/tests/catch2_tests.cpp",
+  "directory": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/build-cov",
+  "command": "/usr/bin/c++  -I\"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/include\" -g -std=gnu++17 --coverage -O0 -g -o CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o -c \"/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/catch2_tests.cpp\"",
+  "file": "/home/mixail/Рабочий стол/Работы 3 семестр/Програмирование/лаба3/src/cpp/tests/catch2_tests.cpp",
   "output": "CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o"
 }
 ]

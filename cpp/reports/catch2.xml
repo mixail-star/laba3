@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tests_catch2" errors="0" failures="0" skipped="0" tests="478" hostname="tbd" time="0.003" timestamp="2026-11-26T11:16:51Z">
+    <properties>
+      <property name="random-seed" value="3373871172"/>
+    </properties>
+    <testcase classname="tests_catch2.global" name="PushBackAndGet" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="InsertAtBeginMiddleEnd" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="SetAndErase" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="CopyMoveClearAndGrow" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="PushFrontBack" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="InsertAfterBefore" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="PopFrontBack" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="RemoveContainsGetClear" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="PushAndValues" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="InsertAfterBefore" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="PopRemoveGet" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="Clear" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="StackIsLifo" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="QueueIsFifo" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="InsertBalancesLikeLab1" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="SearchMinMaxNextPrev" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="EraseAllCases" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="StaysValidUnderRandomOps" time="0.001" status="run"/>
+    <testcase classname="tests_catch2.global" name="OrderingAndDiagram" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="HashFunction" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="PutGetRemove" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="GrowsAndKeepsAllKeys" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="ChainSpecifics" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="OpenAddressingTombstones" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="OpenHelpersAndCopies" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="Roundtrip" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="EmptyContainer" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="RejectsBadJson" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="RejectsBadTree" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="TextFormatIsLab1Json" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="JsonParsingLikeLab1" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="FilesRoundtrip" time="0.000" status="run"/>
+    <testcase classname="tests_catch2.global" name="RejectsBadBinary" time="0.000" status="run"/>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

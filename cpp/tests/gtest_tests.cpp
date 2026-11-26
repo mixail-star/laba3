@@ -661,3 +661,25 @@ TEST(SerializationTests, RejectsBadBinary) {
     std::stringstream odd("{\"ChainHashTable\": [\"key\"]}");
     EXPECT_THROW(h.load(odd, Format::Text), std::runtime_error);
 }
+
+TEST(SerializableTests, SpecialMembersAndDispatch) {
+    EXPECT_TRUE(serializable_special_members_work());
+    StubSerializable a("beta");
+    for (Format f : {Format::Binary, Format::Text}) {
+        std::stringstream buffer;
+        a.save(buffer, f);
+        StubSerializable b;
+        b.load(buffer, f);
+        EXPECT_EQ(b.payload, "beta");
+    }
+}
+
+TEST(RBTreeTests, RestoreInsertsKeys) {
+    RBTreeProbe t;
+    t.restore("5");
+    t.restore("3");
+    t.restore("5");
+    EXPECT_EQ(t.length(), 2);
+    EXPECT_EQ(join(t), "3 5");
+    EXPECT_TRUE(t.is_valid());
+}

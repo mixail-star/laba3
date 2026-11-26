@@ -661,4 +661,26 @@ BOOST_AUTO_TEST_CASE(RejectsBadBinary) {
     BOOST_CHECK_THROW(h.load(odd, Format::Text), std::runtime_error);
 }
 
+BOOST_AUTO_TEST_CASE(SpecialMembersAndDispatch) {
+    BOOST_CHECK(serializable_special_members_work());
+    StubSerializable a("beta");
+    for (Format f : {Format::Binary, Format::Text}) {
+        std::stringstream buffer;
+        a.save(buffer, f);
+        StubSerializable b;
+        b.load(buffer, f);
+        BOOST_CHECK_EQUAL(b.payload, "beta");
+    }
+}
+
+BOOST_AUTO_TEST_CASE(RestoreInsertsKeys) {
+    RBTreeProbe t;
+    t.restore("5");
+    t.restore("3");
+    t.restore("5");
+    BOOST_CHECK_EQUAL(t.length(), 2);
+    BOOST_CHECK_EQUAL(join(t), "3 5");
+    BOOST_CHECK(t.is_valid());
+}
+
 BOOST_AUTO_TEST_SUITE_END()

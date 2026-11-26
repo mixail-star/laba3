@@ -639,3 +639,25 @@ TEST_CASE("RejectsBadBinary", "[Serialization]") {
     std::stringstream odd("{\"ChainHashTable\": [\"key\"]}");
     CHECK_THROWS_AS(h.load(odd, Format::Text), std::runtime_error);
 }
+
+TEST_CASE("SpecialMembersAndDispatch", "[Serializable]") {
+    CHECK(serializable_special_members_work());
+    StubSerializable a("beta");
+    for (Format f : {Format::Binary, Format::Text}) {
+        std::stringstream buffer;
+        a.save(buffer, f);
+        StubSerializable b;
+        b.load(buffer, f);
+        CHECK(b.payload == "beta");
+    }
+}
+
+TEST_CASE("RestoreInsertsKeys", "[RBTree]") {
+    RBTreeProbe t;
+    t.restore("5");
+    t.restore("3");
+    t.restore("5");
+    CHECK(t.length() == 2);
+    CHECK(join(t) == "3 5");
+    CHECK(t.is_valid());
+}
