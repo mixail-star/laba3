@@ -1,0 +1,8 @@
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/lab3_core.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/lab3_demo.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/tests_boost.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/tests_gtest.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/tests_catch2.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/test.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/edit_cache.dir
+/home/schetinin/Desktop/lw3/cpp/build-cov/CMakeFiles/rebuild_cache.dir

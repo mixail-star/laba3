@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/tests_catch2.dir/link.d CMakeFiles/tests_catch2.dir/tests/catch2_tests.cpp.o -o tests_catch2  liblab3_core.a /usr/lib/libCatch2Main.a /usr/lib/libCatch2.a

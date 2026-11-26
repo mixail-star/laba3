@@ -1,0 +1,157 @@
+Start testing: Nov 04 20:32 +07
+----------------------------------------------------------
+1/3 Testing: boost
+1/3 Test: boost
+Command: "/home/schetinin/Desktop/lw3/cpp/build/tests_boost"
+Directory: /home/schetinin/Desktop/lw3/cpp/build
+"boost" start time: Nov 04 20:32 +07
+Output:
+----------------------------------------------------------
+Running 37 test cases...
+
+[1;32;49m*** No errors detected
+[0;39;49m
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"boost" end time: Nov 04 20:32 +07
+"boost" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: gtest
+2/3 Test: gtest
+Command: "/home/schetinin/Desktop/lw3/cpp/build/tests_gtest"
+Directory: /home/schetinin/Desktop/lw3/cpp/build
+"gtest" start time: Nov 04 20:32 +07
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 37 tests from 7 test suites.
+[----------] Global test environment set-up.
+[----------] 7 tests from ArrayTests
+[ RUN      ] ArrayTests.PushBackAndGet
+[       OK ] ArrayTests.PushBackAndGet (0 ms)
+[ RUN      ] ArrayTests.InsertAtBeginMiddleEnd
+[       OK ] ArrayTests.InsertAtBeginMiddleEnd (0 ms)
+[ RUN      ] ArrayTests.GetSetOutOfRange
+[       OK ] ArrayTests.GetSetOutOfRange (0 ms)
+[ RUN      ] ArrayTests.EraseShiftsLeft
+[       OK ] ArrayTests.EraseShiftsLeft (0 ms)
+[ RUN      ] ArrayTests.FindAndClear
+[       OK ] ArrayTests.FindAndClear (0 ms)
+[ RUN      ] ArrayTests.CopyAndMove
+[       OK ] ArrayTests.CopyAndMove (0 ms)
+[ RUN      ] ArrayTests.GrowsManyTimes
+[       OK ] ArrayTests.GrowsManyTimes (0 ms)
+[----------] 7 tests from ArrayTests (0 ms total)
+
+[----------] 5 tests from SinglyListTests
+[ RUN      ] SinglyListTests.PushFrontBack
+[       OK ] SinglyListTests.PushFrontBack (0 ms)
+[ RUN      ] SinglyListTests.InsertAfterBefore
+[       OK ] SinglyListTests.InsertAfterBefore (0 ms)
+[ RUN      ] SinglyListTests.PopFrontBack
+[       OK ] SinglyListTests.PopFrontBack (0 ms)
+[ RUN      ] SinglyListTests.RemoveContainsGet
+[       OK ] SinglyListTests.RemoveContainsGet (0 ms)
+[ RUN      ] SinglyListTests.CopyMoveClear
+[       OK ] SinglyListTests.CopyMoveClear (0 ms)
+[----------] 5 tests from SinglyListTests (0 ms total)
+
+[----------] 4 tests from DoublyListTests
+[ RUN      ] DoublyListTests.PushAndTraverseBothWays
+[       OK ] DoublyListTests.PushAndTraverseBothWays (0 ms)
+[ RUN      ] DoublyListTests.InsertAfterBefore
+[       OK ] DoublyListTests.InsertAfterBefore (0 ms)
+[ RUN      ] DoublyListTests.PopRemoveGet
+[       OK ] DoublyListTests.PopRemoveGet (0 ms)
+[ RUN      ] DoublyListTests.CopyMoveClear
+[       OK ] DoublyListTests.CopyMoveClear (0 ms)
+[----------] 4 tests from DoublyListTests (0 ms total)
+
+[----------] 2 tests from StackQueueTests
+[ RUN      ] StackQueueTests.StackIsLifo
+[       OK ] StackQueueTests.StackIsLifo (0 ms)
+[ RUN      ] StackQueueTests.QueueIsFifo
+[       OK ] StackQueueTests.QueueIsFifo (0 ms)
+[----------] 2 tests from StackQueueTests (0 ms total)
+
+[----------] 6 tests from RBTreeTests
+[ RUN      ] RBTreeTests.InsertBalancesLikeLab1
+[       OK ] RBTreeTests.InsertBalancesLikeLab1 (0 ms)
+[ RUN      ] RBTreeTests.SearchMinMaxNextPrev
+[       OK ] RBTreeTests.SearchMinMaxNextPrev (0 ms)
+[ RUN      ] RBTreeTests.EraseAllCases
+[       OK ] RBTreeTests.EraseAllCases (0 ms)
+[ RUN      ] RBTreeTests.StaysValidUnderRandomOps
+[       OK ] RBTreeTests.StaysValidUnderRandomOps (1 ms)
+[ RUN      ] RBTreeTests.OrderingAndDiagram
+[       OK ] RBTreeTests.OrderingAndDiagram (0 ms)
+[ RUN      ] RBTreeTests.CopyMoveClear
+[       OK ] RBTreeTests.CopyMoveClear (0 ms)
+[----------] 6 tests from RBTreeTests (1 ms total)
+
+[----------] 6 tests from HashTableTests
+[ RUN      ] HashTableTests.HashFunction
+[       OK ] HashTableTests.HashFunction (0 ms)
+[ RUN      ] HashTableTests.PutGetRemoveAllKinds
+[       OK ] HashTableTests.PutGetRemoveAllKinds (0 ms)
+[ RUN      ] HashTableTests.GrowsAndKeepsAllKeys
+[       OK ] HashTableTests.GrowsAndKeepsAllKeys (2 ms)
+[ RUN      ] HashTableTests.ChainSpecifics
+[       OK ] HashTableTests.ChainSpecifics (0 ms)
+[ RUN      ] HashTableTests.OpenAddressingTombstones
+[       OK ] HashTableTests.OpenAddressingTombstones (0 ms)
+[ RUN      ] HashTableTests.OpenHelpersAndCopies
+[       OK ] HashTableTests.OpenHelpersAndCopies (0 ms)
+[----------] 6 tests from HashTableTests (2 ms total)
+
+[----------] 7 tests from SerializationTests
+[ RUN      ] SerializationTests.SequencesRoundtripBothFormats
+[       OK ] SerializationTests.SequencesRoundtripBothFormats (0 ms)
+[ RUN      ] SerializationTests.TreeKeepsShapeAndColors
+[       OK ] SerializationTests.TreeKeepsShapeAndColors (0 ms)
+[ RUN      ] SerializationTests.HashTablesRoundtrip
+[       OK ] SerializationTests.HashTablesRoundtrip (0 ms)
+[ RUN      ] SerializationTests.FilesRoundtrip
+[       OK ] SerializationTests.FilesRoundtrip (0 ms)
+[ RUN      ] SerializationTests.RejectsBadData
+[       OK ] SerializationTests.RejectsBadData (0 ms)
+[ RUN      ] SerializationTests.RejectsBadTreeAndTable
+[       OK ] SerializationTests.RejectsBadTreeAndTable (0 ms)
+[ RUN      ] SerializationTests.PolymorphicSave
+[       OK ] SerializationTests.PolymorphicSave (0 ms)
+[----------] 7 tests from SerializationTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 37 tests from 7 test suites ran. (4 ms total)
+[  PASSED  ] 37 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"gtest" end time: Nov 04 20:32 +07
+"gtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: catch2
+3/3 Test: catch2
+Command: "/home/schetinin/Desktop/lw3/cpp/build/tests_catch2"
+Directory: /home/schetinin/Desktop/lw3/cpp/build
+"catch2" start time: Nov 04 20:32 +07
+Output:
+----------------------------------------------------------
+Randomness seeded to: 2263305552
+===============================================================================
+All tests passed (387 assertions in 37 test cases)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"catch2" end time: Nov 04 20:32 +07
+"catch2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 20:32 +07

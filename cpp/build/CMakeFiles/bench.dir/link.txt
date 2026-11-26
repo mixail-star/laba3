@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/bench.dir/link.d CMakeFiles/bench.dir/benchmarks.cpp.o -o bench  liblab3_core.a /usr/lib/x86_64-linux-gnu/libbenchmark.so.1.9.1

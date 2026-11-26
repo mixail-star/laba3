@@ -1,0 +1,56 @@
+Start testing: Nov 04 20:16 +07
+----------------------------------------------------------
+1/1 Testing: standalone
+1/1 Test: standalone
+Command: "/home/schetinin/Desktop/lw3/cpp/build-cov/tests_standalone"
+Directory: /home/schetinin/Desktop/lw3/cpp/build-cov
+"standalone" start time: Nov 04 20:16 +07
+Output:
+----------------------------------------------------------
+PASS ArrayTests.PushBackAndGet
+PASS ArrayTests.InsertAtBeginMiddleEnd
+PASS ArrayTests.GetSetOutOfRange
+PASS ArrayTests.EraseShiftsLeft
+PASS ArrayTests.FindAndClear
+PASS ArrayTests.CopyAndMove
+PASS ArrayTests.GrowsManyTimes
+PASS SinglyListTests.PushFrontBack
+PASS SinglyListTests.InsertAfterBefore
+PASS SinglyListTests.PopFrontBack
+PASS SinglyListTests.RemoveContainsGet
+PASS SinglyListTests.CopyMoveClear
+PASS DoublyListTests.PushAndTraverseBothWays
+PASS DoublyListTests.InsertAfterBefore
+PASS DoublyListTests.PopRemoveGet
+PASS DoublyListTests.CopyMoveClear
+PASS StackQueueTests.StackIsLifo
+PASS StackQueueTests.QueueIsFifo
+PASS RBTreeTests.InsertBalancesLikeLab1
+PASS RBTreeTests.SearchMinMaxNextPrev
+PASS RBTreeTests.EraseAllCases
+PASS RBTreeTests.StaysValidUnderRandomOps
+PASS RBTreeTests.OrderingAndDiagram
+PASS RBTreeTests.CopyMoveClear
+PASS HashTableTests.HashFunction
+PASS HashTableTests.PutGetRemoveAllKinds
+PASS HashTableTests.GrowsAndKeepsAllKeys
+PASS HashTableTests.ChainSpecifics
+PASS HashTableTests.OpenAddressingTombstones
+PASS HashTableTests.OpenHelpersAndCopies
+PASS SerializationTests.SequencesRoundtripBothFormats
+PASS SerializationTests.TreeKeepsShapeAndColors
+PASS SerializationTests.HashTablesRoundtrip
+PASS SerializationTests.FilesRoundtrip
+PASS SerializationTests.RejectsBadData
+PASS SerializationTests.RejectsBadTreeAndTable
+PASS SerializationTests.PolymorphicSave
+37 tests, 0 failed
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"standalone" end time: Nov 04 20:16 +07
+"standalone" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 04 20:16 +07
